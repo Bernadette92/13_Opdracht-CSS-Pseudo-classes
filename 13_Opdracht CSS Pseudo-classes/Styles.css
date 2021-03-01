@@ -1,0 +1,47 @@
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+    background-color:darkblue;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.menu a{
+    float: left;
+    padding-right: 10px;
+    text-align: left;
+
+}
+li .currentPage{
+    background-color: lightskyblue;
+}
+
+input {
+    float: right;
+
+}
+    input:focus { 
+        outline: none;
+        border-color: aqua;
+    }
+
+  
+.news{
+    list-style-type: none;
+}
+
+
+.nos:hover
+{
+color: lightskyblue;
+font-weight: bold;
+}
+
+.google:active {
+    color: red;
+    font-style: italic;
+  }
+
+.NRC:visited{
+color: yellow;
+  }
